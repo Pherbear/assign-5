@@ -1,6 +1,6 @@
 import PocketBase from "pocketbase";
-const USERNAME = "ADMIN_EMAIL";
-const PASSWORD = "ADMIN_PASSWORD";
+const USERNAME = "bryan.garcia.cuevas@gmail.com";
+const PASSWORD = "realtrapshit";
 const pb = new PocketBase("http://127.0.0.1:8090");
 const authData = await pb.admins.authWithPassword(USERNAME, PASSWORD);
 console.log(authData);
