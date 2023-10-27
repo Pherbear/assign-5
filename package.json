@@ -4,7 +4,7 @@
   "description": "Assignment 5",
   "main": "index.js",
   "scripts": {
-    "pocketbase": "./pocketbase serve",
+    "pocketbase": "pocketbase serve",
     "esbuild": "esbuild src/app.jsx --outfile=pb_public/app.js --watch",
     "browsersync": "browser-sync http://localhost:8090 --files 'pb_public/**/*'",
     "start": "npm-run-all --parallel esbuild pocketbase browsersync"

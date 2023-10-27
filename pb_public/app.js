@@ -1,4 +1,5 @@
-import PocketBase from "pocketbase";
+import PocketBase from "https://cdn.jsdelivr.net/npm/pocketbase@0.19.0/+esm";
+
 const USERNAME = "bryan.garcia.cuevas@gmail.com";
 const PASSWORD = "realtrapshit";
 const pb = new PocketBase("http://127.0.0.1:8090");
